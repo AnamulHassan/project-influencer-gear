@@ -4,9 +4,601 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/queries.css" />
     <title>Influencer Gear</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <!---------- NAVIGATION SECTION ----------->
+      <nav class="main__navigation">
+        <ul class="main__nav__list">
+          <li>
+            <a class="main__nav__label" href="">Influencer Products</a>
+          </li>
+          <li><a class="main__nav__link" href="">Home</a></li>
+          <li><a class="main__nav__link" href="">Products</a></li>
+          <li><a class="main__nav__link" href="">Sign Up</a></li>
+          <li><a class="main__nav__link" href="">Log In</a></li>
+          <li>
+            <a class="main__nav__link" href=""
+              ><ion-icon class="nav__icon" name="search-outline"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a class="main__nav__link" href=""
+              ><ion-icon class="nav__icon" name="cart-outline"></ion-icon
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!------------- HERO SECTION ------------->
+      <section class="section__hero">
+        <div class="hero">
+          <div class="hero__text__box">
+            <h1 class="heading__primary margin__bottom--small">
+              Start your Journey as Influencer
+            </h1>
+            <p class="hero__description margin__bottom--small">
+              Storyclash is your Influencer Marketing Platform to discover
+              brand-fit creators based on their content, not on vanity metrics.
+              Track and analyze their work on any platform, including Stories.
+            </p>
+
+            <a class="btn btn--round" href=""
+              >Prebook Now
+              <span><ion-icon name="chevron-forward-outline"></ion-icon></span>
+            </a>
+          </div>
+          <div class="hero__img__box">
+            <img
+              class="hero__img"
+              src="img/bg/camera-1.png"
+              alt="a compact camera photo"
+            />
+            <img class="hero__img__background" src="img/bg/bg-1.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <!--------- FEATURED IN SECTION ----------->
+      <section class="section__feature">
+        <div class="feature__logo__box">
+          <img
+            class="feature__logo"
+            src="img/logos/daraz.svg"
+            alt="logo of daraz.com"
+          />
+          <img
+            class="feature__logo"
+            src="img/logos/amazon.svg"
+            alt="logo of amazon.com"
+          />
+          <img
+            class="feature__logo"
+            src="img/logos/alibaba.svg"
+            alt="logo of alibaba.com"
+          />
+          <img
+            class="feature__logo"
+            src="img/logos/ebay.svg"
+            alt="logo of ebay.com"
+          />
+          <img
+            class="feature__logo"
+            src="img/logos/walmart.svg"
+            alt="logo of walmart.com"
+          />
+          <img
+            class="feature__logo"
+            src="img/logos/rakuten.svg"
+            alt="logo of rakuten.com"
+          />
+          <img
+            class="feature__logo"
+            src="img/logos/target.svg"
+            alt="logo of target.com"
+          />
+          <img
+            class="feature__logo"
+            src="img/logos/rakuten.svg"
+            alt="logo of rakuten.com"
+          />
+        </div>
+      </section>
+      <!--------- PRICING SECTION ----------->
+      <section class="section__pricing">
+        <header>
+          <h3 class="pricing__title">Popular Collection</h3>
+        </header>
+        <div class="product__cart__box">
+          <!-- item-1 -->
+          <div class="product__pricing__plan">
+            <div class="product__img__box">
+              <img
+                class="product__img"
+                src="img/product/mini-tripod.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product__description__box">
+              <h4 class="product__header">Flex Tripod</h4>
+              <h5 class="product__price">$50.48</h5>
+              <div class="product__rating__box">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-half"></ion-icon>
+                <span>4.34</span>
+              </div>
+              <ul class="product__description__list">
+                <li class="product__description_item">Worldwide Shipping</li>
+                <li class="product__description_item">available</li>
+                <li class="product__description_item">
+                  100% Buyers Protection possible!
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- item-2 -->
+          <div class="product__pricing__plan">
+            <div class="product__img__box">
+              <img
+                class="product__img"
+                src="img/product/microphone.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product__description__box">
+              <h4 class="product__header">Microphone</h4>
+              <h5 class="product__price">$120.25</h5>
+              <div class="product__rating__box">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-half"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <span>5.00</span>
+              </div>
+              <ul class="product__description__list">
+                <li class="product__description_item">Worldwide Shipping</li>
+                <li class="product__description_item">available</li>
+                <li class="product__description_item">
+                  100% Buyers Protection possible!
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- item-3 -->
+          <div class="product__pricing__plan">
+            <div class="product__img__box">
+              <img
+                class="product__img"
+                src="img/product/airpod-pro.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product__description__box">
+              <h4 class="product__header">Airbuds</h4>
+              <h5 class="product__price">$100.48</h5>
+              <div class="product__rating__box">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <span>4.11</span>
+              </div>
+              <ul class="product__description__list">
+                <li class="product__description_item">Worldwide Shipping</li>
+                <li class="product__description_item">available</li>
+                <li class="product__description_item">
+                  100% Buyers Protection possible!
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- item-4 -->
+          <div class="product__pricing__plan">
+            <div class="product__img__box">
+              <img class="product__img" src="img/product/drone.jpg" alt="" />
+            </div>
+            <div class="product__description__box">
+              <h4 class="product__header">Drone</h4>
+              <h5 class="product__price">$980.25</h5>
+              <div class="product__rating__box">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-half"></ion-icon>
+                <span>3.95</span>
+              </div>
+              <ul class="product__description__list">
+                <li class="product__description_item">Worldwide Shipping</li>
+                <li class="product__description_item">available</li>
+                <li class="product__description_item">
+                  100% Buyers Protection possible!
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- item-5 -->
+          <div class="product__pricing__plan">
+            <div class="product__img__box">
+              <img
+                class="product__img"
+                src="img/product/studio light.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product__description__box">
+              <h4 class="product__header">Light Setup</h4>
+              <h5 class="product__price">$1200.48</h5>
+              <div class="product__rating__box">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-half"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <span>4.05</span>
+              </div>
+              <ul class="product__description__list">
+                <li class="product__description_item">Worldwide Shipping</li>
+                <li class="product__description_item">available</li>
+                <li class="product__description_item">
+                  100% Buyers Protection possible!
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- item-6 -->
+          <div class="product__pricing__plan">
+            <div class="product__img__box">
+              <img
+                class="product__img"
+                src="img/product/mini-light.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product__description__box">
+              <h4 class="product__header">Photoshoot Set</h4>
+              <h5 class="product__price">$820.40</h5>
+              <div class="product__rating__box">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <span>4.45</span>
+              </div>
+              <ul class="product__description__list">
+                <li class="product__description_item">Worldwide Shipping</li>
+                <li class="product__description_item">available</li>
+                <li class="product__description_item">
+                  100% Buyers Protection possible!
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- item-7 -->
+          <div class="product__pricing__plan">
+            <div class="product__img__box">
+              <img
+                class="product__img"
+                src="img/product/blog-camera.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product__description__box">
+              <h4 class="product__header">Blogging Camera</h4>
+              <h5 class="product__price">$1800.80</h5>
+              <div class="product__rating__box">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <span>3.99</span>
+              </div>
+              <ul class="product__description__list">
+                <li class="product__description_item">Worldwide Shipping</li>
+                <li class="product__description_item">available</li>
+                <li class="product__description_item">
+                  100% Buyers Protection possible!
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- item-8 -->
+          <div class="product__pricing__plan">
+            <div class="product__img__box">
+              <img class="product__img" src="img/product/gear-bag.jpg" alt="" />
+            </div>
+            <div class="product__description__box">
+              <h4 class="product__header">Green Screen</h4>
+              <h5 class="product__price">$25.00</h5>
+              <div class="product__rating__box">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-half"></ion-icon>
+                <span>4.09</span>
+              </div>
+              <ul class="product__description__list">
+                <li class="product__description_item">Worldwide Shipping</li>
+                <li class="product__description_item">available</li>
+                <li class="product__description_item">
+                  100% Buyers Protection possible!
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- item-9 -->
+          <div class="product__pricing__plan">
+            <div class="product__img__box">
+              <img
+                class="product__img"
+                src="img/product/action-camera.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product__description__box">
+              <h4 class="product__header">Action Camera</h4>
+              <h5 class="product__price">$380.00</h5>
+              <div class="product__rating__box">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <span>4.99</span>
+              </div>
+              <ul class="product__description__list">
+                <li class="product__description_item">Worldwide Shipping</li>
+                <li class="product__description_item">available</li>
+                <li class="product__description_item">
+                  100% Buyers Protection possible!
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- item-10 -->
+          <div class="product__pricing__plan">
+            <div class="product__img__box">
+              <img class="product__img" src="img/product/lens.jpg" alt="" />
+            </div>
+            <div class="product__description__box">
+              <h4 class="product__header">Action Camera</h4>
+              <h5 class="product__price">$380.00</h5>
+              <div class="product__rating__box">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <span>4.99</span>
+              </div>
+              <ul class="product__description__list">
+                <li class="product__description_item">Worldwide Shipping</li>
+                <li class="product__description_item">available</li>
+                <li class="product__description_item">
+                  100% Buyers Protection possible!
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- item-11 -->
+          <div class="product__pricing__plan">
+            <div class="product__img__box">
+              <img class="product__img" src="img/product/gimble.jpg" alt="" />
+            </div>
+            <div class="product__description__box">
+              <h4 class="product__header">Action Camera</h4>
+              <h5 class="product__price">$380.00</h5>
+              <div class="product__rating__box">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <span>4.99</span>
+              </div>
+              <ul class="product__description__list">
+                <li class="product__description_item">Worldwide Shipping</li>
+                <li class="product__description_item">available</li>
+                <li class="product__description_item">
+                  100% Buyers Protection possible!
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- item-12 -->
+          <div class="product__pricing__plan">
+            <div class="product__img__box">
+              <img
+                class="product__img"
+                src="img/product/green-screen.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product__description__box">
+              <h4 class="product__header">Action Camera</h4>
+              <h5 class="product__price">$380.00</h5>
+              <div class="product__rating__box">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <span>4.99</span>
+              </div>
+              <ul class="product__description__list">
+                <li class="product__description_item">Worldwide Shipping</li>
+                <li class="product__description_item">available</li>
+                <li class="product__description_item">
+                  100% Buyers Protection possible!
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--------- CALL TO ACTION SECTION ----------->
+      <section class="section-cta">
+        <article class="cta__box">
+          <div class="cta__img__box">
+            <img
+              class="cta__img"
+              src="img/product/photography-equipment.jpg"
+              alt=""
+            />
+          </div>
+          <div class="cta__description__box">
+            <header>
+              <h2 class="cta__header">Featured products at one place</h2>
+            </header>
+            <p class="cta__description__text margin__bottom--small">
+              One of the features that deserve special mention and help to set
+              them apart is their access to data. It has over 10 years’
+              proprietary sales insights and cross-channel performance data.
+              Armed with this performance data on creators in the LTK network,
+              brands can connect with the right target audience and generate
+              sales and engagement more effectively.
+            </p>
+            <a class="btn btn--square" href=""
+              >Join now
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+            ></a>
+          </div>
+        </article>
+      </section>
+      <!--------- CALL TO ACTION SECTION ----------->
+      <section class="section__testimonial">
+        <div class="testimonial__box">
+          <!-- figure-1 -->
+          <figure class="testimonial">
+            <img
+              class="testimonial__img"
+              src="img/customers/john smith.jpg"
+              alt=""
+            />
+            <p class="testimonial__name">John Smith</p>
+            <div class="rating__box">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+            <blockquote class="testimonial__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eos,
+              eius officiis porro repellendus exercitationem! Provident eius
+              dignissimos autem! Exercitationem!
+            </blockquote>
+          </figure>
+          <!-- figure-2 -->
+          <figure class="testimonial">
+            <img class="testimonial__img" src="img/customers/dave.jpg" alt="" />
+            <p class="testimonial__name">Dave Jonson</p>
+            <div class="rating__box">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+            <blockquote class="testimonial__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eos,
+              eius officiis porro repellendus exercitationem! Provident eius
+              dignissimos autem! Exercitationem!
+            </blockquote>
+          </figure>
+          <!-- figure-3 -->
+          <figure class="testimonial">
+            <img
+              class="testimonial__img"
+              src="img/customers/antonio.jpg"
+              alt=""
+            />
+            <p class="testimonial__name">Antonio Ron</p>
+            <div class="rating__box">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+            <blockquote class="testimonial__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eos,
+              eius officiis porro repellendus exercitationem! Provident eius
+              dignissimos autem! Exercitationem!
+            </blockquote>
+          </figure>
+          <!-- figure-4 -->
+          <figure class="testimonial">
+            <img
+              class="testimonial__img"
+              src="img/customers/steve.jpg"
+              alt=""
+            />
+            <p class="testimonial__name">Steve Harbe</p>
+            <div class="rating__box">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+            <blockquote class="testimonial__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eos,
+              eius officiis porro repellendus exercitationem! Provident eius
+              dignissimos autem! Exercitationem!
+            </blockquote>
+          </figure>
+        </div>
+      </section>
+      <!--------- FOOTER SECTION ----------->
+      <footer class="footer__section">
+        <h3 class="footer__header">Influence Products</h3>
+        <p class="copyright__text">
+          Copyright&copy; 2022 Influence Products <br />
+          All right Reserved
+        </p>
+        <ul class="footer__icon__box">
+          <li>
+            <a class="footer__icon" href=""
+              ><ion-icon name="logo-facebook"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href=""
+              ><ion-icon class="footer__icon" name="logo-instagram"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a class="footer__icon" href=""
+              ><ion-icon name="logo-youtube"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a class="footer__icon" href=""
+              ><ion-icon name="logo-linkedin"></ion-icon
+            ></a>
+          </li>
+        </ul>
+      </footer>
+    </main>
+  </body>
 </html>

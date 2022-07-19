@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  box-sizing: border-box;
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+/* ----------UTILITY CLASS----------- */
+.margin__bottom--small {
+  margin-bottom: 1.6rem;
+}
+/* ---------- NAVIGATION SECTION ----------- */
+.header {
+  width: 100vw;
+  height: 10vh;
+  /* background-color: lavender; */
+  display: flex;
+  justify-content: center;
+}
+.main__navigation {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+}
+.main__nav__list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.main__nav__list li {
+  list-style: none;
+}
+.main__nav__list li:not(:last-child) {
+  margin-right: 3.4rem;
+}
+.main__nav__list li:first-child {
+  margin-right: auto;
+}
+.main__nav__label {
+  display: inline-block;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #3a3a3a;
+}
+.main__nav__link {
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  list-style: none;
+  text-decoration: none;
+  color: #3a3a3a;
+}
+.nav__icon {
+  margin-top: 1.5rem;
+  font-size: 4rem;
+}
+/* ------------- HERO SECTION ----------- */
+.section__hero {
+  width: 100vw;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+}
+.hero {
+  width: 85vw;
+  display: flex;
+}
+.hero__text__box {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.heading__primary {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 7rem;
+  color: #3a3a3a;
+}
+.hero__description {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  color: #3a3a3a;
+}
+.btn {
+  font-weight: 700;
+  background-color: #e02c6d;
+  padding: 1rem 2.4rem;
+  display: inline-block;
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-decoration: none;
+}
+.btn--round {
+  border-radius: 4.1rem;
+}
+.hero__img__box {
+  width: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero__img {
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.hero__img__background {
+  width: 95%;
+  z-index: -1;
+  filter: opacity(0.15) sepia(1) saturate(2);
+  transform: rotate(32deg);
+}
+
+/* --------- FEATURED IN SECTION ----------- */
+.section__feature {
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10.8rem;
+}
+.feature__logo__box {
+  width: 70vw;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  justify-items: center;
+  align-content: center;
+}
+.feature__logo {
+  width: 65%;
+  filter: saturate(0) contrast(10) brightness(0.1) opacity(0.5);
+}
+/* --------- PRICING SECTION ----------- */
+.section__pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pricing__title {
+  font-size: 2.8rem;
+  line-height: 7rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.product__cart__box {
+  width: 80vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+  /* border: 1px solid greenyellow; */
+}
+.product__pricing__plan {
+  box-shadow: 0 0 4rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.6rem;
+  padding: 1.7rem 1.5rem;
+}
+.product__img__box {
+  margin-bottom: 1.6rem;
+}
+.product__img {
+  width: 100%;
+  border-radius: 0.6rem;
+}
+.product__description__box {
+}
+.product__header {
+  font-size: 2.8rem;
+  font-weight: 500;
+  line-height: 4rem;
+  color: #18191f;
+}
+.product__price {
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3.6rem;
+  color: #555;
+  margin-bottom: 0.6rem;
+}
+.product__rating__box {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+  letter-spacing: 0.1px;
+  margin-bottom: 0.6rem;
+}
+.product__rating__box :not(:last-child) {
+  color: #fb8200;
+}
+.product__rating__box :last-child {
+  color: #5e6366;
+  margin-left: 0.8rem;
+}
+.product__description__list {
+  list-style: none;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  letter-spacing: 0.5px;
+  color: #787885;
+}
+/* .product__description_item {
+} */
+
+/* --------- CALL TO ACTION SECTION ----------- */
+.section-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16.6rem;
+}
+.cta__box {
+  width: 80vw;
+  display: flex;
+}
+.cta__img__box {
+  margin-right: 9.6rem;
+}
+.cta__img {
+  width: 100%;
+  border-radius: 0.6rem;
+}
+.cta__description__box {
+}
+.cta__header {
+  font-size: 3.8rem;
+  color: #0a0826;
+}
+.cta__description__text {
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  color: #6c6c6c;
+  margin-top: 1.6rem;
+}
+.btn--square {
+}
+/* --------- CALL TO ACTION SECTION ----------- */
+.section__testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16.6rem;
+}
+.testimonial__box {
+  width: 80vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4rem;
+}
+.testimonial {
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.6rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7rem 2rem 3rem;
+  background-color: aliceblue;
+}
+.testimonial__img {
+  width: 40%;
+  border-radius: 50%;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  border: 1px solid #e02c6d;
+}
+.testimonial__name {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.rating__box {
+  font-size: 1.6rem;
+  color: #fb8200;
+}
+.testimonial__text {
+  text-align: center;
+  font-size: 1.6rem;
+}
+/* --------- FOOTER SECTION ----------- */
+.footer__section {
+  width: 100vw;
+  margin-top: 10rem;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+}
+.footer__header {
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  font-weight: 700;
+  padding-top: 5rem;
+  margin-bottom: 0.3rem;
+}
+.copyright__text {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+}
+.footer__icon__box {
+  padding-bottom: 5rem;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.7rem;
+}
+.footer__icon {
+  font-size: 3rem;
+  color: #fff;
+  margin: 0.8rem;
+}
